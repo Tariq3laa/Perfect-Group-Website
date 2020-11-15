@@ -561,7 +561,7 @@ ol {
     background-color: #F3BB33; 
     position: absolute; 
     top: 25%; 
-    left: 3%;
+    left: -1%;
     border: 7px solid white ;
     border-top-right-radius: 7px;
     border-bottom-right-radius: 7px;
@@ -572,12 +572,16 @@ ol {
     height: 40px;
 }
 
-.about-image2 {
+.about-image2, .about-image3 {
     width:100%;
     height: 100%;
     position: absolute; 
     left: 1px;
     background-color: #F3BB33;
+}
+
+.about-image3 {
+    border-radius: 7px; 
 }
 
 /*---------------------
@@ -624,10 +628,6 @@ ol {
 .subcontact img {
     width: 40px;
     height: 40px;
-}
-
-.subcontact .col {
-    width: 10px;
 }
 
 /*---------------------
